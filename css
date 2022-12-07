@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: url(blood\ amit646.jpg);
+    background-position:center;
+    background-size:cover;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 150PX;
+}
+.menu-bar
+{
+   
+    background:wheat;
+    text-align:center;
+    list-style:dotted;
+}
+.menu-bar ul 
+{
+    display: inline-flex;
+    list-style: circle;
+    color:black;
+}
+.menu-bar ul li 
+{
+    width: 250px;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.menu-bar ul li a
+{
+    text-decoration:none;
+    color:black;
+
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background:blanchedalmond;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px double wheat;
+    background: transparent;
+    border-radius: 0;
+    text-align: left
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:n :last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color:black;
+}
+
+
+.menu-2{
+    
+            text-align:left;
+            font-size: large;
+            border-style: groove;
+            border-color: azure;
+            border-radius:10px; 
+            border-width: 15px;
+            float:center;
+            padding-left:10px ;
+            padding-right:10px ;
+            padding-bottom:10px ;
+            padding-top:10px ;
+            background-color:blanchedalmond;
+        }
+    
+
+
+#firstdiv{
+    
+            text-align:left;
+            font-size: large;
+            border-style: groove;
+            border-color: azure;
+            border-radius:10px;
+            border-width: 15px;
+            background-color:blanchedalmond ;
+            float:center;
+            padding-left:10px ;
+            padding-right:10px ;
+            padding-bottom:10px ;
+            padding-top:10px ;
+}
+.find{
+            text-align: right;
+            font-size: large;
+            color: antiquewhite;
+            border-radius: 30px;
+            border-width: 15px;
+            box-sizing: border-box;
+            float:center;
+            padding-left:100px ;
+            padding-right:100px ;
+            padding-bottom:100px ;
+            padding-top:100px ;
+            background-color: aqua;
+}
+.p1{
+            font-size: large;
+            border-style: groove;
+            border-color: azure;
+            border-radius: 30px;
+            border-width: 15px;
+            background-color: blanchedalmond;
+            float:center;
+            padding-left:600px;
+            padding-right:0px ;
+            padding-bottom:50px ;
+            padding-top:0px ;
+        }
+       /* .ansh{ */
+        /* position: absolute; */
+       
+       /* } */
+
+       .main_pic {
+        position: absolute;
+        right: 50px;
+       }
+       
